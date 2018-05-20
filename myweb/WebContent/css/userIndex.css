@@ -1,0 +1,383 @@
+@CHARSET "UTF-8";
+body{
+	font-size:12px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#000;
+	line-height:22px;
+	margin: 0;
+	padding:0;
+	
+}
+a{
+	text-decoration: none;
+	color:#b93204;
+}
+a:hover{
+	color:red;
+}
+.main{
+	width:978px;
+	margin:0 auto;
+	position:relative;
+	top:55px;
+	border: 1px solid #e4e6eb;
+	display:block;
+	background-color: #A7D6AA;
+}
+.main_head{
+	width:974px;
+	height:180px;
+	position:relative;
+	top:0;
+	left:0;
+	
+	display:block;
+	background-image:url("../img/test2.jpg");
+	border: 3px solid #e4e6eb;
+}
+
+.main_head_user{
+	/* margin:0 auto;
+	width:864px; */
+	/* margin:10px; */
+	/* position:relative; */
+	/* top:15px;
+	left:55px; */
+	padding:15px;
+	height:156px;
+	display:block;
+}
+.main_head_user img{
+	width:150px;
+	height:150px;
+	
+	margin:3px 0 3px 55px;
+}
+.head_user{
+	height: 150px;
+	padding:0;
+	display:inline-block;
+	position: relative;
+    top: -50px; 
+}
+.head_user_name{
+	width:464px;
+	/* height:130px; */
+	padding:10px;
+	font-size:35px;
+}
+.head_user_edituser:hover{
+	cursor:pointer;
+}
+.head_user_edituser{
+	/* position: absolute; */ 
+    height: 26px;
+    /* left: 0; */
+    /* bottom: 11px; */
+    /* width: 780px; */
+    display: inline-block;
+}
+.head_user_edituser a{
+	background-color: #fff;
+    /* border-color: #3e89fa; */
+    color: #3e89fa;
+    font-size: 12px;
+    border: 1px solid #4183E8;
+    display: block;
+    padding: 0 4px;
+}
+
+.icon_edit{
+	background-image:url("../img/userIndex_edit.png");
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-top: -.2em;
+}
+.head_user_info{
+	margin:30px 0 0 20px;
+	position:relative;
+	bottom:-30px;
+	display:inline-block;
+}
+.head_user_info img{
+	width:20px;
+	height:20px;
+	margin:0;
+}
+.user_info_sex_man{
+	width: 20px;
+    height: 20px;
+    background: url(../img/icon_groups_ecdb969.png) 0 -26px;
+}
+.user_info_sex_woman{
+	width: 20px;
+    height: 20px;
+    background: url("../img/icon_groups_ecdb969.png") 0 -57px;
+}
+.content{
+	width:980px;
+}
+.content_head{
+	height:48px;
+	background-color:#ECEFF2;
+}
+.content_head ul{
+	height:48px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.content_head li{
+	width:150px;
+	line-height:45px;
+	font-size:20px;
+	font-family:"KaiTi_GB2312";
+	display:list-item;
+	float:left;
+	text-align: -webkit-center;
+}
+.content_head li a{
+	width:150px;
+	height:45px;
+	margin:0;
+	padding:0;
+	    display: block;
+	    text-align: center;
+}
+.content_head_one{
+	background-color:#ECEFF2;
+
+}
+.content_head_one:hover{
+	background-color:#8787B5;
+	cursor:pointer;
+}
+.content_head_two{
+	background-color:#A7A7C5;
+	border-bottom:3px solid #2B0EC5;
+}
+.content_head_two:hover{
+	background-color:#8787B5;
+	
+	cursor:pointer;
+}
+.content_topic{
+	padding:10px;
+}
+.content_topic li{
+	border-bottom:1px solid #3B3B86;
+	margin:10px 0;
+}
+.topic_name{
+	font-size: 40px;
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+    width: 700px;
+    height: 30px;
+}
+.topic_time{
+	display:inline-block;
+	margin-left: 30px;
+}
+.topic_content{
+	display: inline-block;
+    margin: 10px 0 0 40px;
+    width: 500px;
+    height: 22px;
+    overflow: hidden;
+}
+.topic_clicks{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-right: 20px;
+}
+.topic_replys{
+	display: inline-block;
+    vertical-align: top;
+    float: right;
+    width: 100px;
+    margin-right: 20px;
+    text-align: -webkit-right;
+}
+.topic_delet{
+	display: inline-block;
+    vertical-align: top;
+    margin: 0 80px 0 20px;
+    float: right;
+}
+.topic_delet a:hover{
+	cursor:pointer;
+}
+.content_myreply{
+	padding:10px;
+}
+.content_myreply li{
+		border-bottom:1px solid #3B3B86;
+	margin:10px 0;
+	width:880px;
+}
+.myreply_topicname{
+	font-size:20px;
+	margin: 0;
+    display: inline-block;
+    width:700px;
+}
+.myreply_topicname a{
+	text-decoration: underline;
+	color:#0080ff;
+}
+.myreply_replytime{
+	display: inline-block;
+	vertical-align: super;
+}
+.myreply_content{
+	display: inline-block;
+	width: 700px;
+    height: 22px;
+    margin-left: 150px;
+}
+.content_replyme{
+	padding:10px;
+}
+.content_replyme li{
+		border-bottom:1px solid #3B3B86;
+	margin:10px 0;
+	width:880px;
+}
+.replyme_uname{
+	font-size:14px;
+	margin: 0;
+    display: inline-block;
+   
+}
+.replyme_uname a{
+	font-size:14px;
+	
+}
+.replyme_topicname{
+	display: inline-block;
+    font-size: 20px;
+}
+.replyme_topicname a{
+	text-decoration: underline;
+	color:#0080ff;
+}
+.replyme_content{
+	margin: 0 0 10px 70px;
+    font-size: 15px;
+}
+.content_fans{
+	padding:10px;
+}
+.fans{
+	display:block;
+	float:left;
+	width:120px;
+	height:150px;
+}
+.fans_img{
+	margin:10px;
+}
+.fans_img img{
+	width:100px;
+	height:100px;	
+}
+.fans_name{
+	text-align: -webkit-center;
+    overflow: hidden;
+}
+.content_follows{
+	padding:10px;
+}
+.follows{
+	display:block;
+	float:left;
+	width:120px;
+	height:180px;
+}
+.follows_img{
+	margin:10px;
+}
+.follows_img img{
+	width:100px;
+	height:100px;	
+}
+.follows_name{
+	text-align: -webkit-center;
+    overflow: hidden;
+}
+.delete_follows{
+	text-align:center;
+}
+.delete_follows span{
+	background-color:#A1A292;
+	display:block;
+	height:20px;
+	width:70px;
+	margin:0 auto;
+}
+.delete_follows span:hover{
+	background-color:blue;
+	cursor:pointer;
+	color:white;
+}
+.edit{
+	padding:10px;
+}
+.edit_left{
+	display:inline-block;
+	width:240px;
+	height:400px;
+	font-size:25px;	
+	float:left;
+}
+.edit_left li:hover{
+	cursor:pointer;
+	background-color:blue;
+}
+.edit_left li{
+	margin:10px 0;
+}
+.edit_right{
+	display:inline-block;
+	float:left;
+	
+	padding:10px;
+	
+}
+.edit_right img{
+	width:150px;
+	height:150px;
+}
+.myinfo{
+	display:inline-block;
+	float:left;
+	background-color: #c1e3c3;
+	padding:10px;
+	font-size:15px;
+}
+.edit_right span{
+	display:block;
+	margin:10px 5px;
+}
+.password{
+	display:inline-block;
+	float:left;
+	background-color: #c1e3c3;
+	padding:10px;
+	font-size:15px;
+	margin:0 10px;
+}
+.password span{
+	display:block;
+	margin:10px 5px;
+}
+
+
+
+
+
+

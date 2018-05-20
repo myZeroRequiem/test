@@ -1,0 +1,208 @@
+@CHARSET "UTF-8";
+body{
+	font-size:15px;
+	font-family: "KaiTi_GB2312","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#000;
+	line-height:22px;
+	margin: 0;
+	padding:0;
+	width:100%;
+	background:url("../img/bbs_regist.jpg")  165px -45px;
+	background-color:white;
+	background-repeat: no-repeat; 
+}
+.main{
+	width:450px;
+	/* height:540px; */
+	margin:auto;
+	position:relative;
+	top:50px;
+}
+.back{
+	background-color:#f2f2f5;
+	padding:15px;
+    /* height:370px; */
+    box-shadow: 0 0 2px rgba(0,0,0,0.15);
+}
+.regist{
+	padding:20px;
+	background-color:#fff;
+	border: 1px solid #b8b8b8;
+	height:760px;
+}
+.regist_head{
+	padding-top:11px;
+	margin-bottom:16px;
+	border-bottom: 3px solid #fa7d3c;
+	font-size:20px;
+	
+}
+.regist_head h1{
+	padding:0 105px;
+}
+.regist_main{
+	position:relative;
+	top:0;
+	left:0;
+}
+.regist_main_uid{
+
+	margin:10px 35px;
+	float:left;
+
+}
+.regist_main_uid span{
+	display:block;
+	float:left;
+	width:150px;
+	font-size: 24px;
+    margin-bottom: 10px;
+}
+.regist_main_uid input{
+	height:40px;
+	width:302px;
+	padding:0;
+}
+.regist_main_uname{
+
+	margin:10px 35px;
+	float:left;
+
+}
+.regist_main_uname span{
+	display:block;
+	float:left;
+	width:150px;
+	font-size: 24px;
+    margin-bottom: 10px;
+}
+.regist_main_uname input{
+	height:40px;
+	width:302px;
+	padding:0;
+}
+.regist_main_password{
+
+	margin:10px 35px;
+	float:left;
+
+}
+.regist_main_password span{
+	display:block;
+	float:left;
+	width:150px;
+	font-size: 24px;
+    margin-bottom: 10px;
+}
+.regist_main_password input{
+	height:40px;
+	width:302px;
+	padding:0;
+}
+.regist_main_sex{
+
+	margin:10px 35px;
+	float:left;
+
+}
+.regist_main_sex span{
+	display:block;
+	float:left;
+	width:100px;
+	font-size: 24px;
+    margin-bottom: 10px;
+}
+.regist_main_sex select{
+	height:30px;
+	width:100px;
+	padding:0;
+	margin-bottom: 10px;
+}
+.regist_main_email{
+
+	margin:10px 35px;
+	float:left;
+
+}
+.regist_main_email span{
+	display:block;
+	float:left;
+	width:150px;
+	font-size: 24px;
+    margin-bottom: 10px;
+}
+.regist_main_email input{
+	height:40px;
+	width:302px;
+	padding:0;
+}
+.regist_main_reset{
+	height: 40px;
+    margin: 10px 35px;
+    float: left;
+    position:relative;
+    top:0;
+    left:20px;
+}
+.regist_main_reset input{
+	
+ 	width:100px;
+ 	background-color: #8E796D;
+    border: 0;
+    font-size:20px;
+    font-family: "KaiTi_GB2312";
+    color:white;
+}
+.regist_main_reset input:hover{
+	background-color: #B15C31;
+	cursor:pointer;	
+}
+.regist_main_submit{
+	height: 40px;
+    margin: 10px 35px;
+    float: left;
+    position:relative;
+    top:0;
+    left:20px;
+}
+.regist_main_submit input{
+	width:100px;
+ 	background-color: #DCB424;
+    border: 0;
+    font-size:20px;
+    font-family: "KaiTi_GB2312";
+    color:blue;
+}
+.regist_main_submit input:hover{
+	background-color: #B15C31;
+	cursor:pointer;	
+}
+.regist_main_agreement{
+	margin:10px 35px;
+	float:left;
+}
+.regist_login{
+	margin: 0 35px;
+    padding: 10px 0;
+    border-top: 2px solid #B32CA2;
+    width: 314px;
+    height: 20px;
+    position:absolute;
+    top:770px;
+}
+.cue{
+	width:150px;
+	height:22px;
+	display:inline-block;
+	font-size:12px;
+}
+.cue span{
+	font-size:12px;
+}
+.agreement{
+	text-decoration: underline;
+	color: blue;
+}
+.agreement:hover{
+	cursor:pointer;	
+}

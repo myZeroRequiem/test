@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+body{
+	font-size:15px;
+	font-family: "KaiTi_GB2312","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#000;
+	line-height:22px;
+	margin: 0;
+	padding:0;
+	width:100%;
+	background:url("../img/bbs_login.jpg")  170px -150px;
+	background-color:black;
+	background-repeat: no-repeat; 
+}
+.main{
+	width:450px;
+	height:370px;
+	margin:auto;
+	position:relative;
+	top:50px;
+	
+}
+.back{
+	
+	background-color:#f2f2f5;
+	padding:15px;
+    height:370px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.15);
+    
+}
+
+.login{
+	padding:20px;
+	background-color:#fff;
+	border: 1px solid #b8b8b8;
+	height:330px;
+}
+.login_head{
+	padding-top:11px;
+	margin-bottom:16px;
+	border-bottom: 3px solid #fa7d3c;
+	font-size:20px;
+	
+}
+.login_head h1{
+	padding:0 105px;
+}
+.login_main{
+	position:relative;
+	top:0;
+	left:0;
+}
+
+.login_uname{
+	height:44px;
+	margin:10px 35px;
+	float:left;
+	border: 1px solid #b8b8b8;
+    border-bottom-color: #ccc;
+
+}
+.login_uname input{
+	height:40px;
+	width:257px;
+	padding:0 0 0 45px;
+}
+.login_uname img{
+	height: 42px;
+    width: 40px;
+    float: left;
+    z-index: 100;
+    position: relative;
+    top: -43px;
+    left: 2px;
+}
+.login_password{
+	height:44px;
+	margin:10px 35px;
+	float:left;
+	border: 1px solid #b8b8b8;
+    border-bottom-color: #ccc;
+}
+.login_password input{
+	height:40px;
+	width:257px;
+	padding:0 0 0 45px;
+}
+.login_password img{
+	height: 42px;
+    width: 40px;
+    float: left;
+    z-index: 100;
+    position: relative;
+    top: -43px;
+    left: 2px;
+}
+.login_submit{
+	height: 40px;
+    margin: 10px 35px;
+    float: left;
+}
+
+.login_submit input{
+	width: 180px;
+    height: 40px;
+    margin: 0 67px;
+    background-color: #E68350;
+    border: 0;
+    font-size:20px;
+    font-family: "KaiTi_GB2312";
+}
+.login_submit input:hover{
+	background-color: #B15C31;
+	cursor:pointer;	
+}
+.login_regist{
+	margin: 0 35px;
+    padding: 10px 0;
+    border-top: 2px solid #B32CA2;
+    width: 314px;
+    height: 20px;
+    position:absolute;
+    top:200px;
+}
+
+
+
+
